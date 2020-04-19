@@ -1,3 +1,4 @@
+package com.example.cam_work1;
 
 import android.content.Context;
 import android.content.Intent;
@@ -53,7 +54,7 @@ public class CapturePictureActivity extends AppCompatActivity{
 
         Button captureButton = findViewById(R.id.capture);
         captureButton.setOnClickListener(capture);
-        if(!getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA)){
+        if(!getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_ANY)){
             captureButton.setEnabled(false);
         }
 
@@ -67,7 +68,7 @@ public class CapturePictureActivity extends AppCompatActivity{
     private View.OnClickListener capture = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            if(getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA)){
+            if(getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_ANY)){
                 sendTakePictureIntent();
             }
         }
