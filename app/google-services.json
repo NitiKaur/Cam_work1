@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1013812711325",
+    "firebase_url": "https://camwork1-52c20.firebaseio.com",
+    "project_id": "camwork1-52c20",
+    "storage_bucket": "camwork1-52c20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013812711325:android:32d5cc24a9cd0e100d2974",
+        "android_client_info": {
+          "package_name": "com.example.cam_work1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013812711325-s9mh1tgr7smvcodlfk90kb3drcn1v0uf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cam_work1",
+            "certificate_hash": "d2f85bc08943f9c24e7d347b158c5d11274ad03f"
+          }
+        },
+        {
+          "client_id": "1013812711325-8mh1k18qe7on1997hk9hp75m0n2djpl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQuuX0Cf6YqDw8MwFf2EnscrQBGcZdqC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013812711325-8mh1k18qe7on1997hk9hp75m0n2djpl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
